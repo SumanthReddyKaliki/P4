@@ -110,7 +110,6 @@ I implemented this step in lines 565 through 603 in my code in `image_process.py
 ###Pipeline (video)
 After combining all the pieces of the pipeline I was able to accurately draw the lane back onto the original undistorted image, and successfully track the lane lines on every frame without much deviation from the actual lane. The process for handling video used the same pipeline as for images. Each frame in the video is passed to `pipeline()` in the `image_process.py` module, and the image is processed according to the process detailed above, and then converted back into a video clip.
 
-Here's a [link to my video result](./video/final.mp4)
 [![Lane line finding](https://img.youtube.com/vi/WPqwRSHT8c0/0.jpg)](https://www.youtube.com/watch?v=WPqwRSHT8c0)
 
 ---
